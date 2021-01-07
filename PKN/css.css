@@ -1,0 +1,39 @@
+body {
+	text-align: center;
+	background-color:white;
+	/*color:orange;*/
+	font-family:Verdana;
+}
+.przycisk {
+	color:white;
+	font-family:Verdana;
+	background-image:linear-gradient(to right,black,green);
+}
+
+#debug {
+	word-wrap: break-word;
+}
+
+button.wybor {
+	background: white;
+	border: none;
+	outline: none;
+}
+
+textarea {
+	resize:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

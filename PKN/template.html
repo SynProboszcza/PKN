@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="Refresh" content="url=http://wp.pl">  
+	<script type ="text/javascript" src="jquery.js"></script>
+	<script type ="text/javascript" src="js_start.js"></script>
+	<script type ="text/javascript">
+		let wyborGracza;
+		let dbg=0;
+		let zwyciestwa1=0;
+		let zwyciestwa2=0;
+	</script>
+	<link rel="stylesheet" href="css.css">
+	<title>Dawid Sójka template</title>
+</head>
+<body>
+
+
+<button class="wybor" onclick="GraV2(0)"><img src="png/kamienv4.png" height="200" width="200"></button>
+<button class="wybor" onclick="GraV2(1)"><img src="png/nozycev4.png" height="200" width="200"></button>
+<button class="wybor" onclick="GraV2(2)"><img src="png/papierv4.png" height="200" width="200"></button>
+<br>
+<!-- <button onclick="GraV2()">Zacznij grę!</button> -->
+<br>
+
+
+<!-- <button id="przycisk" class="przycisk" onclick="
+//
+if(dbg>=5){Gra('debug');}
+else{Gra();}
+//">Papier, Kamień, Nożyce!</button><br>
+
+<button onclick="
+delete imie;//zmienna zawsze bedzie imie
+dbg++;//to do debugowania, po pieciu wcisnieciach przycisk graj zmienia znaczenie
+">Skasuj imie, daj nowe</button> -->
+<!-- <textarea cols="30" rows="4" placeholder="Twoje imię" id="text"></textarea>--><div id="wynik"></div>
+<div id="wygrane"></div>
+<div id="debug"></div>
+<!-- <p onmousemove=	"
+var liczba =losuj(1,10);
+	if(liczba==1){this.style.color='red';}
+	else if(liczba==2)	{this.style.color='blue';}
+	else if(liczba==3)	{this.style.color='cyan';}
+	else if(liczba==4)	{this.style.color='lime';}
+	else if(liczba==5)	{this.style.color='white';}
+	else if(liczba==6)	{this.style.color='violet';}
+	else if(liczba==7)	{this.style.color='Chartreuse';}
+	else if(liczba==8)	{this.style.color='darkmagenta';}
+	else if(liczba==9)	{this.style.color='deepskyblue';}
+	else if(liczba==10)	{this.style.color='gold';}
+	else 				{this.style.color='aqua';}"
+ondblclick=	""
+onmousedown=""
+onmouseup=	""
+onmouseover="this.innerHTML='template'" 
+onmousemove=""
+onmouseout=	"this.innerHTML='template'"
+id="akapit">template</p> -->
+<!--
+<div style="color:black" name="maslo" id="maslo" onmousemove="
+var switchc = true;
+if(switchc){
+	if(r<255){r+=3;}
+		else if(g<255){g+=3;}
+		else if(b<255){b+=3;}
+		else {switchc=false}}
+		else if(r>=1){r-=3;}
+		else if(g>=1){g-=3;}
+		else if(b>=1){b-=3;}
+	if(r==255){
+		if(g==255){
+			if(b==255){
+				r=0;
+				g=0;
+				b=0;
+			}
+		}
+	}
+		//console.log('r: '+r+'g: '+g+'b: '+ b);
+	this.style.color='rgb('+r+','+g+','+b+')';">
+Babciu! To jest Za*ebiste!!!</div>
+-->
+
+
+<script src="js_end.js"></script>
+</body>
+
+
+
+</html>
+
+
